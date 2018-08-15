@@ -5,11 +5,23 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /* Give the <body> element a background of #bdc3c7*/
 
-/* Make the <h1> element #9b59b6*/
+var x = document.getElementsByClassName("hello");
+var i;
+for (i = 0; i < x.length; i++) {
+}
 
+
+/* Make the <h1> element #9b59b6*/
+var x = document.getElementsByTagName("blah");
+var i;
+for (i = 0; i < x.length; i++) {
+}
 
 /* Make all <h2> elements orange */
-
+var x = document.getElementsByName("Arnold");
+var i;
+for (i = 0; i < x.length; i++) {
+}
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/
 
